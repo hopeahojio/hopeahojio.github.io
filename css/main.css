@@ -6,6 +6,7 @@ body
 h1
 {
   font-family: courier;
+  font-size: 35pt;
   font-weight: bold;
   text-decoration: underline;
   color: rgb(144,68,44);
@@ -18,5 +19,6 @@ ul
 
 p
 {
-  font-family: noto;      
+  font-family: noto;
+  font-size: 20pt;
 }

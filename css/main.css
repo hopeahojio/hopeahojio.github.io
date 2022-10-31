@@ -5,6 +5,12 @@ body
 
 h1
 {
+  font-weight: bold;
   text-decoration: underline;
   color: rgb(82,39,25);
+}
+
+ul
+{
+  list-style-type: circle;
 }

@@ -23,3 +23,8 @@ p
   font-family: noto;
   font-size: 20pt;
 }
+
+div.button
+{
+    text-align: center;
+}

@@ -21,10 +21,11 @@ ul
 p
 {
   font-family: noto;
-  font-size: 20pt;
+  font-size: 16pt;
 }
 
 div.button
 {
-    text-align: center;
+  font-size: 14pt;  
+  text-align: center;
 }

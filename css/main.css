@@ -22,3 +22,8 @@ p
   font-family: noto;
   font-size: 20pt;
 }
+
+section
+{
+    float: left;
+}

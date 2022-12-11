@@ -1,11 +1,18 @@
+:root 
+{
+  --bg-color: rgb(180, 161, 202);
+  --accent1: rgb(183, 202, 161);
+  --acccent2: rgb(202, 201, 161);  
+}
+
 body
 {
-    background-color: rgb(47, 60, 71);
+    background-color: var(--bg-color);
 }
 h1
 {
     text-align: center;
-    color: rgb(26, 16, 16);
+    color: var(--bg-color);
     font-size: 48pt;
 }
 section h2
@@ -15,6 +22,7 @@ section h2
 }
 section
 {
+    background-color: var(--accent1);
     border: 3px solid black;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -27,23 +35,16 @@ ul
 }
 .date
 {
-    color: goldenrod;
+    color: var(--accent2);
     float: right;
 }
 nav a
 {   
     font-size: 20pt;
     font-weight: bold;
-    color:rgb(51, 173, 173)
+    color: white;
 }
-#experience li
-{
-    border-bottom: 2px solid goldenrod
-}
-#education h3
-{
-    border-bottom: 2px solid goldenrod
-}
+
 img
 {
     border-radius: 50%;

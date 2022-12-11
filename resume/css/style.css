@@ -33,6 +33,11 @@ section
     clear: both;
 }
 
+.date
+{
+    float: right;
+}
+
 ul
 {
     font-size: 18pt;

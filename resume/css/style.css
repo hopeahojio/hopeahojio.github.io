@@ -33,9 +33,10 @@ ul
 {
     font-size: 18pt;
 }
+
 .date
 {
-    color: var(--accent2);
+    text-color:var(--accent2);
     float: right;
 }
 

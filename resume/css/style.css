@@ -1,13 +1,13 @@
 :root 
 {
-  --bg-color: rgb(180, 161, 202);
+  --main: rgb(180, 161, 202);
   --accent1: rgb(183, 202, 161);
   --accent2: rgb(202, 201, 161);  
 }
 
 body
 {
-    background-color: var(--bg-color);
+    background-color: var(--main);
 }
 
 h1
@@ -26,7 +26,7 @@ section h2
 section
 {
     background-color: var(--accent1);
-    border: 3px solid black;
+    border: 3px solid var(--accent2);
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 10px;

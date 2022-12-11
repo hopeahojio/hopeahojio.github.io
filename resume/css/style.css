@@ -9,17 +9,20 @@ body
 {
     background-color: var(--bg-color);
 }
+
 h1
 {
     text-align: center;
     color: var(--accent2);
     font-size: 48pt;
 }
+
 section h2
 {
     margin: 5px;
     font-size: 28pt;
 }
+
 section
 {
     background-color: var(--accent1);
@@ -29,15 +32,10 @@ section
     padding: 10px;
     clear: both;
 }
+
 ul
 {
     font-size: 18pt;
-}
-
-.date
-{
-    text-color:var(--accent2);
-    float: right;
 }
 
 nav ul {

@@ -2,7 +2,7 @@
 {
   --bg-color: rgb(180, 161, 202);
   --accent1: rgb(183, 202, 161);
-  --acccent2: rgb(202, 201, 161);  
+  --accent2: rgb(202, 201, 161);  
 }
 
 body
@@ -12,13 +12,14 @@ body
 
 h1
 {
+    color: var(--accent2);  
     text-align: center;
-    color: var(--accent2);
     font-size: 48pt;
 }
 
 section h2
 {
+    color: var(--accent2); 
     margin: 5px;
     font-size: 28pt;
 }

@@ -38,6 +38,30 @@ ul
     color: var(--accent2);
     float: right;
 }
+
+nav ul {
+   text-align: center;
+   list-style-type: none;
+   font-size: 25pt;
+   padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    background-color: var(--accent1); 
+    color: black;
+    text-decoration: none;  
+    padding: 10px 20px;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: var(--accent2);    
+}
+
 nav a
 {   
     font-size: 20pt;
@@ -48,4 +72,5 @@ nav a
 img
 {
     border-radius: 50%;
+    height: 250px;
 }
